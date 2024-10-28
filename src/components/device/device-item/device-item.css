@@ -1,0 +1,25 @@
+.device-item {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #000;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.device-item__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.device-item__header span {
+    font-weight: 600;
+    font-size: 20px;
+}
+.device-item__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}

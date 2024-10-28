@@ -1,0 +1,37 @@
+.device-editor {
+    margin-bottom: 20px;
+    input {
+
+        border: 1px solid #000;
+        border-radius: 5px;
+
+        padding: 7px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}
+.node-list {
+    margin-bottom: 5px;
+    border-top: 1px solid #000000;
+
+    input {
+        color: #000;
+
+        border: 1px solid #000;
+        border-radius: 5px;
+
+        padding: 7px;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+}
+
+.node-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.device-editor__footer {
+    display: flex;
+    gap: 10px;
+}

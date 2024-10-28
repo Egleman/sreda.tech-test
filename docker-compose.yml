@@ -1,0 +1,17 @@
+version: '2.4'
+networks:
+   sreda-tech_network:
+      driver: bridge
+services:
+   sreda-tech:
+      container_name: sreda-tech
+      build:
+         context: ./
+         dockerfile: ./Dockerfile
+      ports:
+         - '3011:5173'
+      volumes:
+         - ./:/app
+      tty: true
+      networks:
+         - sreda-tech_network

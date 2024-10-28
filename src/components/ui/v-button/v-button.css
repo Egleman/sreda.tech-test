@@ -1,0 +1,60 @@
+.button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: #1A56DBFF;
+    color: #fff;
+    transition: .3s all;
+    border: none;
+    width: max-content;
+    cursor: pointer;
+    &:hover {
+        background: #1E429FFF;
+    }
+}
+.button_red {
+    background: #C81E1EFF;
+    &:hover {
+        background: #9B1C1CFF;
+    }
+}
+.button_green {
+    background: #046C4EFF;
+}
+
+@media (hover: hover) {
+    .button {
+        &:hover {
+            background: #1E429FFF;
+        }
+    }
+    .button_green {
+        &:hover {
+            background: #03543FFF;
+        }
+    }
+    .button_red {
+        &:hover {
+            background: #9B1C1CFF;
+        }
+    }
+}
+@media (hover: none) {
+    .button {
+        &:active {
+            background: #1E429FFF;
+        }
+    }
+    .button_green {
+        &:active {
+            background: #03543FFF;
+        }
+    }
+    .button_red {
+        &:active {
+            background: #9B1C1CFF;
+        }
+    }
+}
